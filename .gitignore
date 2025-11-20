@@ -1,0 +1,100 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# -----------------------------
+# Data Files
+# -----------------------------
+
+# Large binary formats
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.zip
+*.gz
+*.h5
+*.joblib
+
+# If you want CSV files included, remove "*.csv" above
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+
+# -----------------------------
+# OS / System Files
+# -----------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+*.stackdump
+[Dd]esktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# -----------------------------
+# IDE configs
+# -----------------------------
+.vscode/
+.vscode/*
+.idea/
+.idea/*
+*.swp
+
+# -----------------------------
+# Credentials / Secrets
+# -----------------------------
+*.env
+.env.local
+*.key
+*.pem
+
+# -----------------------------
+# Cache & temporary
+# -----------------------------
+*.tmp
+*.temp
+*.bak
+*.cache/
+cache/
+*.sqlite3
+
+# -----------------------------
+# Your Project Specific
+# -----------------------------
+# Ignore exported models
+models/
+*.pt
+*.pkl
+*.model
+
+# Ignore results / plots
+reports/figures/
