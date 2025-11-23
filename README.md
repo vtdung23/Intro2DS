@@ -2,8 +2,8 @@
 📦 data-science-imdb-project
 ├── 📁 data
 │   ├── raw/                    # raw crawled data (imdb_movies_15000.csv)
-│   ├── cleaned/                # cleaned_data.csv
-│   ├── processed/              # model-ready data (model_data.csv)
+│   ├── cleaned/                # cleaned_data.csv --> sau khi xu ly du lieu thieu
+│   ├── processed/              # model-ready data (model_data.csv) --> train validation test 
 │   └── About_data.md           # describe data formats
 │
 ├── 📁 notebooks
@@ -15,7 +15,7 @@
 │   └── 052_modeling.ipynb            # ML models and evaluation
 │
 ├── 📁 src
-│   ├── crawl_imdb.py           # main crawler script
+│   ├── crawl_imdb.py           # main crawler script 
 │   ├── data_cleaning.py        # reusable cleaning functions
 │   ├── feature_engineering.py  # reusable feature processing
 │   ├── modeling.py             # ML model training functions
