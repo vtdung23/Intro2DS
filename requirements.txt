@@ -13,3 +13,4 @@ jupyter
 ipykernel
 scipy
 joblib
+wordcloud 
