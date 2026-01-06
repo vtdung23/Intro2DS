@@ -16,3 +16,5 @@ scipy
 joblib
 wordcloud 
 statsmodels
+catboost
+lightgbm
