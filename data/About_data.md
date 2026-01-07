@@ -1,7 +1,11 @@
 data/
 ├── raw/                           # Dữ liệu thô thu thập từ API
-│   └── movies_raw.csv             # Dữ liệu gốc crawl từ TmDB (với ~21 thuộc tính)
+    ├── movies_2000_2015.csv       # Dữ liệu thô Dũng thu thập
+    ├── movies_2016_2025.csv       # Dữ liệu thô Khánh thu thập
+│   └── raw_data.csv               # Dữ liệu gốc crawl từ TmDB (với ~21 thuộc tính)
 ├── cleaned/                       # Dữ liệu đã làm sạch cơ bản
+    ├── data_da_resize.csv         # 10k records được chọn lọc
+    ├── preprocessed_data_v2.csv   # Dữ liệu chứa vote_average khác 0
 │   ├── train_raw.csv              # Tập huấn luyện thô (đã điền giá trị thiếu)
 │   └── test_raw.csv               # Tập kiểm tra thô (đã điền giá trị thiếu)
 └── preprocessed/                  # Dữ liệu sau Feature Engineering
